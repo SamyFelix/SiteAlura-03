@@ -1,0 +1,65 @@
+/*Definição do site todo*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+nav a{
+    display: inline-block;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+/*Daqui para baixo são main da pagina html Contato*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+/*Rodapé*/
+footer{
+    background-color: black;
+    text-align: center;
+}
